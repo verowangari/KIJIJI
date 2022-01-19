@@ -1,21 +1,68 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
-body{
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f1f1f1;
+.section{
+  width: 100%;
 }
-.aboutus-section{
-  margin-top: -15px;
-  background: url(../images/house.jpg) no-repeat left;
-  background-size: 65%;
-  background-color: #fdfdfd;
-  overflow: hidden;
-  padding: 100px 0;
+.section .container{
+  width: 80%;
+  display: block;
+  padding: 50px 0px;
+  margin: 0px auto;
+}
+.container .pagetitle{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.container .pagetitle h1{
+  text-transform: uppercase;
+  color: rgb(49, 80, 3);
+  font-size: 38px;
+}
+.container .pagetitle h1::after{
+  height: 5px;
+  width: 100px;
+  content: "";
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  background-color: #c4d156;
+}
+.pagecontent{
+  float: left;
+  width: 55%;
+}
+.image-section{
+  float: right;
+  width: 40%;
+}
+.pagecontent .aboutus h3{
+  color: #a3a3a3;
+  font-size: 17px;
+}
+.pagecontent .aboutus p{
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+ 
+}
+.pagecontent .aboutus .button{
+  margin-top: 55px;
+}
+.pagecontent .aboutus .button a{
+  padding: 8px 25px;
+  background-color: #c4d156;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  border-radius: 40px;
+  color: #fff;
+}
+.pagecontent .aboutus h4{
+  color: rgb(49, 80, 3);
+  font-size: 20px;
 }
