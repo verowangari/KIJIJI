@@ -4,34 +4,479 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kijiji</title>
-    <!-- box icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <!-- fontawesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <!-- bootsrap css -->
+    <title>KIJIJI</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap-grid.css" />
     <link rel="stylesheet" href="Bootstrap/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
-    <header>
-      <a href="#" class="logo"> <span>KI</span>JIJI</a>
+    <header class="head">
+      <h1>KI <span>JIJI</span> <i id="piz" class="fas fa-house"></i></h1>
       <nav class="navbar">
-        <a href="#home"> Home</a>
-        <a href="#home"> Categories</a>
-        <a href="#home"> Agents</a>
-        <a href="#home"> Contact</a>
-        <a href="#home"> Blog</a>
+        <a href="#home">Home </a>
+        <a href="#about">About</a>
+        <a href="#categories">Categories</a>
+        <a href="#agent">Agents</a>
+        <a href="#blog">Blog</a>
+        <a href="#buy">Buy</a>
+        <a href="#contact">Contact</a>
+        
       </nav>
+      <div class="side-bar">
+        <i class="fas fa-search" id="search"> </i>
+        <i class="fas fa-user" id="user"></i>
+        <!-- <i class="fas fa-bars" id="bars"></i> -->
+      </div>
+      <form action="#" class="search-bar">
+        <input type="search" name="search" id="1" placeholder="Search Here" />
+      </form>
     </header>
+
+    <!-------------- Home Section  ------------------>
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="inner-content">
+          <h3>
+            Welcome to Bite-Of-Life&nbsp;
+            <i id="piz" class="fas fa-pizza-slice"> </i> Pizza
+          </h3>
+          <p>
+            Home of Delicious Pizza and best ordering experience.
+            Exciting offers and discounts. Get quality pizza at affordable prices.
+            Wonderful experience per bite!
+          </p>
+          
+          <button  class="btn">Menu</button>
+        </div>
+        
+      </div>
+    </section>
+    <!-------------------------------------------------- ABOUT -->
+    <section class="about" id="about">
+      <h4>About</h4>
+      <div class="about-sec">
+        <div class="img">
+          <img src="assets/menu2.jpeg" alt="img" />
+        </div>
+        <div class="about-content">
+          <h3>Bite-Of_life Pizza</h3>
+          <p>
+            Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.
+          </p>
+          <div class="about-inner">
+            <h5><i class="fa-solid fa-circle-arrow-right"></i>Good Quality</h5>
+            <h5>
+              <i class="fa-solid fa-circle-arrow-right"></i>Fresh Vegetables
+            </h5>
+            <h5>
+              <i class="fa-solid fa-circle-arrow-right"></i>Available 24/7
+            </h5>
+            <h5><i class="fa-solid fa-circle-arrow-right"></i>Best Prices</h5>
+            <h5>
+              <i class="fa-solid fa-circle-arrow-right"></i>Value for your money
+            </h5>
+          </div>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------------------------------------------------------------Services-- -->
+    <section class="service" id="service">
+      <h4>Services</h4>
+      <div class="service-content">
+        <div class="inner-box">
+          <img src="assets/free-delivery.png" alt="" />
+          <h2>Free Delivery</h2>
+          <p>
+            Ordering food for delivery is always a joy. It takes under a minute, you don’t have to leave your house, and the restaurants often cook better than you do. Whatever your reason may be for getting pizza delivered, we are here for it.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="inner-box">
+          <img src="assets/mobile-payment.png" alt="" />
+          <h2>Online Payment</h2>
+          <p>
+            It’s time we meet your right where you are. Put simply, our goal should be to make paying bills as easy as possible for our customers so getting paid becomes faster and more reliable than ever before.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="inner-box">
+          <img src="assets/fresh.png" alt="" />
+          <h2>Fresh Food</h2>
+          <p>
+            Fresh food is food which has not been preserved and has not spoiled yet. For vegetables and fruits, this means that they have been recently harvested and treated properly postharvest; for meat, it has recently been slaughtered and butchered; for fish, it has been recently caught or harvested and kept cold.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------Menu -->
+    <section class="menu" id="menu">
+      <h4>Our Menu</h4>
+      <div class="menu-content">
+        <div class="in-box">
+          <i class="far fa-heart"></i>
+          <img src="assets/green.png" alt="img" class="veg-icon" />
+          <img src="assets/menu.jpeg" alt="" />
+          <div class="in-content">
+            <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <h2>Margherita Sushi Pizza</h2>
+              <div class="price">Ksh 900</div>
+              <button class="btn" id="cart">
+                Add to Cart <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="in-box">
+          <i class="far fa-heart"></i>
+          <img src="assets/green.png" alt="img" class="veg-icon" />
+          <img src="assets/menu1.png" alt="" />
+          <div class="in-content">
+            <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <h2>Italian Cuisine Tomato Pizza</h2>
+              <div class="price">Ksh 900</div>
+              <button class="btn">
+                Add to Cart <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="in-box">
+          <i class="far fa-heart"></i>
+          <img src="assets/green.png" alt="img" class="veg-icon" />
+          <img src="assets/menu2.jpeg" alt="" />
+          <div class="in-content">
+            <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <h2>Pepperoni Pizza</h2>
+              <div class="price">Ksh 900</div>
+              <button class="btn">
+                Add to Cart <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="in-box">
+          <i class="far fa-heart"></i>
+          <img src="assets/green.png" alt="img" class="veg-icon" />
+          <img src="assets/back2.jpg" alt="" />
+          <div class="in-content">
+            <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <h2>Hamburger Calzone Pizza</h2>
+              <div class="price">Ksh 1250</div>
+              <button class="btn">
+                Add to Cart <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="in-box">
+          <i class="far fa-heart"></i>
+          <img src="assets/green.png" alt="img" class="veg-icon" />
+          <img src="assets/back1.jpg" alt="" />
+          <div class="in-content">
+            <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <h2>Tomatos Margherita Pizza</h2>
+              <div class="price">Ksh 1250</div>
+              <button class="btn">
+                Add to Cart <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="in-box">
+          <i class="far fa-heart"></i>
+          <img src="assets/green.png" alt="img" class="veg-icon" />
+          <img src="assets/back3.jpeg" alt="" />
+          <div class="in-content">
+            <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"> </i>
+              <h2>California-Style, Sicilian Pizza</h2>
+              <div class="price">Ksh 1250</div>
+              <button class="btn">
+                Add to Cart <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="assets/green.png" alt="img" class="veg-icon" />
+            <img src="assets/righthome.png" alt="" />
+            <div class="in-content">
+              <div class="star">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <h2>California-Style, Sicilian Pizza</h2>
+                <div class="price">Ksh 1500</div>
+                <button class="btn">
+                  Add to Cart <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="assets/green.png" alt="img" class="veg-icon" />
+            <img src="assets/images.jpeg" alt="" />
+            <div class="in-content">
+              <div class="star">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <h2>California-Style, Sicilian Pizza</h2>
+                <div class="price">Ksh 1500</div>
+                <button class="btn">
+                  Add to Cart <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="assets/green.png" alt="img" class="veg-icon" />
+            <img src="assets/cali.jpg" alt="" />
+            <div class="in-content">
+              <div class="star">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <h2>California-Style, Sicilian Pizza</h2>
+                <div class="price">Ksh 1500</div>
+                <button class="btn">
+                  Add to Cart <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-------------------------------------------------------------------------- Blog -->
+    <section class="blog" id="blog">
+      <h4>Latest Blog</h4>
+      <!-- ------------------------------------------------------------------------------- -->
+
+      <div class="service-content">
+        <div class="inner-box" id="blog-box">
+          <img src="assets/Pizza_Background.jpg" alt="" />
+          <div class="in-blog-icon">
+            <a href="#"> <i class="fas fa-calendar"> </i>14th Jan 2022</a>
+            
+          </div>
+          <h2>Pizza is amazing</h2>
+          <p>
+           I had an experience of my life...
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="inner-box" id="blog-box">
+          <img src="assets/back2.jpg" alt="" />
+          <div class="in-blog-icon">
+            <a href="#"> <i class="fas fa-calendar"> </i>14th Jan 2022</a>
+            
+          </div>
+          <h2>Wonderful Experience </h2>
+          <p>
+            This is the best place anyone could ever be...
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="inner-box" id="blog-box">
+          <img src="assets/maxresdefault.jpg" alt="" />
+          <div class="in-blog-icon">
+            <a href="#"> <i class="fas fa-calendar"> </i>14th Jan 2022</a>
+            
+          </div>
+          <h2>Best Prices Ever</h2>
+          <p>
+            The prices are affordable and quality worth it....
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      
+    </section> -->
+    <!--------------------------------------------------------------------------------------------------- ORDER -->
+    <section class="order" id="order">
+        <h4> Order Now</h4>
+        <!-- -----------------------------------------------------------------------------------------------------------------------------------ORDERTRIAL -->
+  <div  id="make-order">
+    <div class="order-content">
+     
+      <h3>Experience Our Uniqueness</h3>
     
+          
+            <form action="#">
+              <label for="select">AVAILABLE SIZES</label>
+              <select class="form-control" id="proportion">
+               
+                <option value="large">Large Ksh 1500</option>
+                <option value="medium">Medium Ksh 1250</option>
+                <option value="small">Small Ksh 900</option>
+              </select>
+                <label for="select"> AVAILABLE FLAVORS</label>
+                <select class="form-control name" id="pizatype">
+                  
+                  <option value="Margherita Sushi Pizza">Margherita Sushi Pizza</option>
+                  <option value="Italian Cuisine Tomato Pizza">Italian Cuisine Tomato Pizza</option>
+                  <option value="Pepperoni Pizza">Pepperoni Pizza</option>
+                  <option value="Hamburger Calzone Pizza">Hamburger Calzone Pizza</option>
+                  <option value="Tomatos Margherita Pizza">Tomatos Margherita Pizza</option>
+                  <option value="California-Style, Sicilian Pizza">California-Style, Sicilian Pizza</option>
+                </select>
+              
+              <label for="crust">AVAILABLE CRUST</label>
+                <select class="form-control" id="crust">
+                    
+                  <option value="Cracker">Cracker  Ksh 100</option>
+                  <option value="Cheese">Cheese Ksh 150</option>
+                  <option value="Flat-Bread ">Flat-Bread Ksh 200</option>
+                </select>
+              <label for="Toppings"> AVAILABLE TOPPINGS </label>
+                <div class="form-check">
+                  <label class="form-check-label" for="potato">Potato</label>
+                  <input type="checkbox" class="form-check-input" id="potato" value="potato" name="toppings">
+                  
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="Bacon" value="Bacon" name="toppings">
+                  <label class="form-check-label" for="Bacon">Bacon</label>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="pancetta" value="pancetta" name="toppings">
+                  <label class="form-check-label" for="pancetta">pancetta</label>
+                </div> <br><br><br>
+                
+              <button type="submit" class="btn continue"> Buy Now</button>
+              
+            </form>
+          
+          <div class="your-ordered">
+            <div class="order-message" id="order-text">
+              <p>Deliveries are done within the same day.</p>
+            </div>
+            <div class="final-output">
+              <p id="statement">You just requested:</p>
+              <div id="total-orders">
+                    <ul id="placeorders">
+                      <li id="pizza-type"></li>
+                      <li id="pizza-proportion"></li>
+                      <li id="pizza-crust"></li>
+                      <!-- <li id="totalcost"> </li> -->
+                    </ul>                  
+                <p id="totalpaying"></p>
+                <p id="totalpayingcost"></p> 
+                <p id="free-delivery"> Enjoy the benefit of Free-Delivery!</p>
+                <p id="display-text"></p>
+              </div>
+              <button class="btn  addmore"> Add More?</button>
+              <button class="btn " id="checkout">Checkout</button>
+              <button class="btn  homedeliver">Deliver to me</button>
+            </div>
+            <div class="delivery">
+              <h2> Where do you want you pizza delivered?</h2>
+                <form action="#">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control " placeholder=" Your Name">
+                    <input type="number" id="phone" class="form-control " placeholder="Phone Number">
+                    <input type="number" id="phone" class="form-control " placeholder="Alternative Phone Number">
+                    <input type="text" id="location" class="form-control " placeholder="Your Town">
+                    <input type="text" id="location" class="form-control " placeholder="Your Street">
+                    <button class="btn " id="finish-order">Finish Order</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------ENDORDERTRIAL -->
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------CONTACT -->
+    <footer class="contact" id="contact">
+        <div class="contact-sec">
+            <div class="contact-inner">
+                <div class="contact-inner-col">
+                    <img src="assets/chef.png" alt="" class="image"  >
+                </div>
+                <div class="contact-inner-col">
+                    <h1>Contact Us&nbsp; <i class="fas fa-paper-plane" >  </i></h1>
+                    <p> Thika Road, Off K-Street Kenya Welcome</p>
+                    <p>We would lovde to hear from you</p>
+                    <form action="#" id="" method="get">
+                        <input type="text" name="name" id="" placeholder="Enter your Name" required>
+                        <input type="email" name="name" id="" placeholder="Enter your email" required>
+                        <input type="text" name="name" id="" placeholder="Enter your phoneNumber" required>
+                        <textarea name="" id="" cols="10" rows="8"></textarea>
+                       
+                    </form>
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31911.612128775065!2d36.9273338962318!3d-1.1943440442453548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f8e4b8ad947%3A0x9504ecc7473b7b93!2sKahawa%20Sukari!5e0!3m2!1sen!2ske!4v1642321802223!5m2!1sen!2ske" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="copyright">
+                <p> Designed by&copy; Veronica Muriithi</p>
+                <div class="social">
+                    <i class="fab fa-facebook"> </i>
+                    <i class="fab fa-instagram"> </i>
+                    <i class="fab fa-pinterest"> </i>
+                    <i class="fab fa-twitter"> </i>
+                    <i class="fab fa-google-plus"> </i>
+                    <i class="fab fa-whatsapp"> </i>
+                    <i class="fab fa-youtube"> </i>
+                    <i class="fab fa-linkedin"> </i>
+                    <i class="fab fa-tumblr"> </i>
+                    <i class="fab fa-vimeo"> </i>
+
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- js and jquery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
