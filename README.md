@@ -1,4 +1,4 @@
-# KIJII
+# KIJIJI
 #### KIJIJI Real Estate Web Application, 19/01/2022
 #### By Veronica Muriithi, Allan Gikonyo, Michael Osinde, Kelvin Munyao and Zakiya Adam
 ## Description
@@ -20,4 +20,4 @@ HTML, CSS (Bootstrap5),  Javascript(JQuery)
 If you run into any issues or have questions, ideas or concerns contact kijiji@info.com or make a contribution to the code.
 ### License
 MIT 
-Copyright (c) 2021 
+Copyright (c) 2022
