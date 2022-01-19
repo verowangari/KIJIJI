@@ -154,6 +154,9 @@ section p {
   color: var(--clr4);
   transition: -4s ease;
 }
+.head span{
+    color: var(--clr3);
+}
 #bars {
   display: none;
 }
@@ -186,7 +189,7 @@ section p {
 .home {
   height: 100vh;
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5), url(/assets/pizza2.jpeg) ); */
-  background-image: url(../assets/back2.jpg);
+  background-image: url(../assets/kijiji\ 3.png);
   background-size: cover;
   background-position: center;
 }
