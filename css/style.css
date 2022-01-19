@@ -1,0 +1,117 @@
+/* variable css */
+:root{
+  --header-height:3rem;
+  /* colors */
+  --first-color:#1EAB07;
+  --first-color-lighter:#ECF3f2;
+  --title-color:#0C4803;
+  --text-color:#000;
+  --body-color:#f5fffe;
+
+  /* font and topography */
+--body-font:'Poppins', sans-serif;
+--biggest-font-size:3rem;
+--big-font-size:3rem;
+--normal-font-size:.938rem;
+/* font weight */
+--font-medium:400;
+--font-semi-bold:600;
+/* z index */
+--z-tooltip:10;
+--z-fixed:100;
+}
+@media screen and (min-width:1024px){
+    :root{
+        --biggest-font-size: 5.5rem ;
+        --big-font-size: 2rem;
+        --normal-font-size: 1rem;
+    }
+}
+*,::before,::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+}
+h1,h2,ul,p{
+    margin: 0;
+}
+ul{
+   padding: 0;
+   list-style: none; 
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* ======LAYOUT====== */
+.main{
+    position: relative;
+}
+.bd-container{
+    max-width: 968px;
+    margin-left: 1.5rem ;
+    margin-right: 1.5rem;
+}
+/* ========================HEADER */
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:var(--z-fixed)
+
+}
+/* ===================================NAV */
+
+.nav{
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and(max-width:768px){
+ .nav_menu{
+     position: fixed;
+     top:-100%;
+     left: 0;
+     right: 0;
+     width: 90%;
+     margin:0 auto ;
+     text-align: center;
+     padding-top: 1.5rem;
+     background-color: var(--first-color-lighter);
+     border-radius: 1rem;
+     transition: 4s;
+
+
+ }   
+}
+.nav_logo,
+.nav_toggle{
+    /* color: var(--first-color); */
+}
+.nav_link{
+    color: #0C4803;
+    font-weight: var(--font-medium);
+
+}
+.nav_item{
+    margin-bottom: 1.5rem;
+}
+.nav_toogle{
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+/* ==============================SHOW MENU */
+.show-menu{
+    
+top: calc(  var(--header-height)+ 1rem );}
