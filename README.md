@@ -1,45 +1,23 @@
-### KIJIJI
-
-#### Brief description of application
-
-A real estate application
-
-#### By
-
-Group Three
-
+# KIJII
+#### KIJIJI Real Estate Web Application, 19/01/2022
+#### By Veronica Muriithi, Allan Gikonyo, Michael Osinde, Kelvin Munyao and Zakiya Adam
 ## Description
+The following code represents the web application of Kijiji, a Nairobi based real estate company that connect potential real estate buyers with sellers. The web application not only serves as a medium to widen the company's customer base but also allows customers to survey different houses online. 
 
+ The following is the demo user interface of the landing page. 
 
+ ![KIJIJI](./img/kijiji-reference.png)
 
-## Link to Github Pages
-
-## Setup/Installation Requirement
-
-1. Install Visual Studio <br> 2) Create a github account. <br> 3) Install git <br> 4) Create a repository <br> 5) Code <br> 6) Push to github <br>7) Put the site into use
+## Setup/Installation Requirements
+The landing page has no setup/ installation requirements needed. The landing page can be accessed via any browser. The code is also independent of any app. 
 
 ## Known Bugs
-
-There are no issues, it runs just fine.
+None. 
 
 ## Technologies Used
-
-1. HTML <br> 2) CSS <br> 3) BootStrap <br> 4) JS
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
+HTML, CSS (Bootstrap5),  Javascript(JQuery)
 ## Support and contact details
-
-Email: info@kijiji.com
-
-## License
-
-This project is under [MIT] LICENSE (https://choosealicense.com/licenses/mit/)
-
-Copyright (c) 2022 Group Three
-
-## Visuals
-![alt text](http://url/to/..assets/ordershot.png)
-
+If you run into any issues or have questions, ideas or concerns contact kijiji@info.com or make a contribution to the code.
+### License
+MIT 
+Copyright (c) 2021 
