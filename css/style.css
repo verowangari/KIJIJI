@@ -4,3 +4,18 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+.aboutus-section{
+  margin-top: -15px;
+  background: url(../images/house.jpg) no-repeat left;
+  background-size: 65%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+}
