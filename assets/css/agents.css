@@ -139,8 +139,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 #agents .column img {
-  width:250px ;
-  margin: 10, 10, 10, 10px;
+  width: 70%;
+  height: 160px;
+  align-items: center;
 }
 
 #agents .column h3 {
@@ -149,7 +150,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #agents .column h3,
-#agents .column p {
+#agents .card p {
   padding-left: 1rem;
 }
 /* end: agents styles */
@@ -161,7 +162,7 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-between;
   text-align: left;
-  height: 450px;
+  height: 350px;
   font-size: 24px;
   color: white;
   padding-top: 48px;
@@ -169,14 +170,14 @@ html::-webkit-scrollbar-thumb {
 }
 /*footer texts */
 .footertexts{
-  line-height: 48px;
+  line-height: 32px;
   width: 27%;
 }
 /* footer texts headings */
 .footertexts p:first-child{
-  font-size: 36px;
+  font-size: 16px;
   margin-bottom: 24px;
-  font-weight: 900;
+  font-weight: 700;
 }
 /* footer social icons */
 .footertexts>img{
