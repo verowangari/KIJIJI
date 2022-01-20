@@ -50,7 +50,7 @@ section h2{
 section h4 {
   margin: 0 0 1rem 35rem;
   padding: 0.8rem;
-  width: 50%;
+  width: 60%;
   font-size: 5rem;
   font-weight: bold;
   color: white;
@@ -193,7 +193,7 @@ section p {
 .home {
   height: 100vh;
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5), url(/assets/pizza2.jpeg) ); */
-  background-image: url(../assets/house2.jpg);
+  background-image: url(../assets/deals4.jpg);
   background-size: cover;
   background-position: center;
 }
