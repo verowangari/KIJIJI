@@ -30,8 +30,8 @@ html::-webkit-scrollbar-thumb {
 }
 /* ----------------------------------------------------------------------------------GENERAL SECTION */
 section {
-  padding: 4rem 9%;
-  margin-top: 8rem;
+  padding: 4rem 0%;
+  margin-top: 3.8rem;
 }
 section h3 {
   font-size: 44px;
@@ -59,6 +59,9 @@ section h4 {
   align-items: center;
   letter-spacing: 0.2rem;
   background: var(--clr1);
+  
+  
+  
   /* -webkit-clip-path: polygon(
     0% 15%,
     25% 24%,
@@ -77,7 +80,7 @@ section h4 {
 section p {
   color: white;
   font-size: 2rem;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 2.5rem;
   word-wrap: normal;
 }
@@ -92,7 +95,7 @@ section p {
   background: white;
   border: none;
   border-radius: 0.5rem;
-  box-shadow: 0 2rem 2rem rgba(255, 85, 94, 0.4);
+  box-shadow: 0 1.4rem 1.4rem rgba(0, 200, 80, 0.4);
   transition: all 0.3s ease;
   cursor: pointer;
   outline: none;
@@ -118,9 +121,10 @@ section p {
   justify-content: space-between;
 }
 .head h1 {
-  font-size: 2.5 rem;
+  font-size: 4.5 rem;
+  font-family: "Oleo Script Swash Caps";
 }
-#piz{
+#house{
   animation: icon 3s ease infinite;
 }
 @keyframes icon {
@@ -155,7 +159,7 @@ section p {
   transition: -4s ease;
 }
 .head span{
-    color: var(--clr3);
+    color: var(--clr4);
 }
 #bars {
   display: none;
@@ -189,7 +193,7 @@ section p {
 .home {
   height: 100vh;
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5), url(/assets/pizza2.jpeg) ); */
-  background-image: url(../assets/kijiji\ 3.png);
+  background-image: url(../assets/house2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -220,27 +224,38 @@ section p {
 } */
 
 /* ----------------------------------------------------------------ABOUT section -------*/
-.about {
-  overflow: hidden;
+.about-content{
+    
+    
 }
+ .about {
+  /* overflow: hidden; */
+  /* height: 100vh; */
+
+
+} 
 .about-sec {
   display: grid;
   grid-template-columns: 1.2fr 1.2fr;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* background-color: var(--clr1); */
 }
 .img img {
-  width: 45rem;
+  width: 83rem;
   height: auto;
   text-align: center;
-  animation: icon 4s ease infinite;
+  animation: icon 5s ease infinite;
 }
 .about-content h3 {
-  background-image: url(../assets/back2.jpg);
+
   background-size: cover;
   background-position: center;
   color: var(--clr4);
 }
 .about .btn {
-  border: 0.1rem solid var(--clr4);
+  /* border: 0.1rem solid var(--clr4); */
+  margin-top: 5rem;
 }
 .about-content p {
   padding-bottom: 2rem;
@@ -293,7 +308,10 @@ section p {
   letter-spacing: 1rem;
   text-transform: capitalize;
 }
-/* --------------------------------Styling for Menu */
+/* -------------------=========================================-------------Styling for HOMES */
+.menu{
+  padding: 4rem 9%;
+}
 .menu-content {
   display: grid;
   grid-template-columns: 1.2fr 1.2fr 1.2fr;
@@ -308,7 +326,7 @@ section p {
 }
 .in-box:hover {
   background: var(--clr4);
-  transition: 4s ease all;
+  transition: 2s ease all;
 }
 .in-box img {
   width: 20rem;
@@ -320,36 +338,32 @@ section p {
   margin-left: -7rem;
   color: black;
 }
-.in-box .veg-icon {
-  margin-left: 22rem;
-  position: absolute;
-  width: 3rem;
-}
-.star,
-.price {
-  padding: 1rem 0;
+
+.star
+ {
+  padding: 1.2rem 0;
   font-size: 1.8rem;
   font-weight: 600;
-  color: black;
+  color: var(--clr1);
   text-transform: capitalize;
 }
 .in-content h2,
 .in-content p {
-  font-size: 2rem;
+  font-size: 2.6rem;
   text-transform: capitalize;
   padding: 1rem 0;
 }
-.fa-star {
-  color: var(--clr5);
-}
+
 .in-box .far {
-  font-size: 2rem;
-  color: black;
+  font-size: 2.3rem;
 }
-.in-box .fa-plus-circle {
-  color: var(--clr4);
+.in-box .fa-street-view {
+  color: var(--clr1);
 }
 /* -------------------------------------------------------------------------------------------------------------------------BLOG---------- */
+#deals{
+  padding: 4rem 9%;
+}
 #blog-box{
   border: 0.5rem solid var(--clr4);
 }
@@ -433,13 +447,13 @@ section p {
   color: var(--clr4);
   font-size: 3rem;
   letter-spacing: 1rem;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 .contact-inner-col p {
   padding: 5rem;
   line-height: 1.5rem;
   font-size: 1.5rem;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #aaa;
 }
 .contact-inner-col input,
@@ -485,7 +499,7 @@ textarea {
   cursor: pointer;
   transition: 1s ease;
 }
-  /* footer */
+  /*==================== footer */
   #footer{
     background-color: #1EAB07;
     display: flex;
@@ -497,7 +511,7 @@ textarea {
     padding-top: 48px;
     padding-left: 48px;
 }
-/* footer texts */
+/*=============================== footer texts */
 .footertexts{
     line-height: 48px;
     width: 27%;
@@ -536,8 +550,12 @@ textarea {
     height: 35px;
     border-radius: 20px 20px 20px 0px;
     border: none;
-    background-color: #0C4803;
+    background-color: #9c9c9c;
     color: #1EAB07;
+}
+/* ==================================================footer */
+.bg-dark{
+  background-color: var(--clr4);
 }
 /* mediaquery */
 /* @media(max-width:991px){
