@@ -13,7 +13,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 html {
   font-size: 65%;
@@ -156,7 +156,7 @@ section p {
 .head .side-bar i:hover {
   background: var(--clr3);
   color: var(--clr4);
-  transition: -4s ease;
+  transition: .4s ease;
 }
 .head span{
     color: var(--clr4);
@@ -191,11 +191,13 @@ section p {
 }
 /* -----------------------------------------------------------------------------------------------------HOME CSS---------- */
 .home {
-  height: 100vh;
+  height: 70vh;
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5), url(/assets/pizza2.jpeg) ); */
   background-image: url(../assets/deals4.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-
 }
 .home p {
   font-size: 2.7rem;
@@ -223,10 +225,9 @@ section p {
   animation: icon 5s ease infinite;
 } */
 
-/* ----------------------------------------------------------------ABOUT section -------*/
-.about-content{
-    
-    
+/* ----------------------------------------------------------------ABOUT section =====================chooseus-------*/
+#chooseus{
+  padding: 3rem 9%;
 }
  .about {
   /* overflow: hidden; */
@@ -277,7 +278,10 @@ section p {
   color: var(--clr4);
   padding-right: 1rem;
 }
-/* ------------------------------Services */
+/* -----------------------------===========================================================-Services */
+#service{
+  padding: 4rem 9%;
+}
 .service-content {
   padding: 1rem 0;
   display: grid;
@@ -293,6 +297,7 @@ section p {
 .inner-box:hover {
   background: var(--clr4);
   transition: 2s ease all;
+  color: white;
 }
 .inner-box img {
   width: 15rem;
