@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+:root {
+  --clr1: #1EAB07;
+  --clr2: #fff;
+  --clr3: #000;
+  --clr4: #0C4803;
+  --clr5: limegreen;
+}
+
+/* CSS NAVBAR */
+/* ----------------------------------------------------Styling for head */
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  background: #1EAB07;
+  color: #fff;
+  padding: 3rem 9%;
+  align-items: center;
+  justify-content: space-between;
+}
+.head h1 {
+  font-size: 4.5 rem;
+  font-family: "Oleo Script Swash Caps";
+}
+#house{
+  animation: icon 3s ease infinite;
+}
+@keyframes icon {
+  25% {
+    transform: translateY(-1.5rem);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+}
+.head .navbar a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+.head .navbar a:hover {
+  color: black;
+  transition: -4s ease;
+}
+.head .side-bar i {
+  padding: 1.5rem;
+  font-size: 2.1rem;
+  border: none;
+  background: var(--clr2);
+  color: var(--clr4);
+}
+.head .side-bar i:hover {
+  background: var(--clr3);
+  color: var(--clr4);
+  transition: -4s ease;
+}
+.head span{
+    color: var(--clr4);
+}
+#bars {
+  display: none;
+}
+.search-bar {
+  height: 7rem;
+  padding: 0 1rem;
+  display: flex;
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  right: 0;
+  align-items: center;
+  background: var(--clr3);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 0, 0 0);
+}
+.search-bar input {
+  width: 100%;
+  background: none;
+  border: hidden;
+  text-transform: none;
+  font-size: 1.5 rem;
+  color: #fff;
+}
+.search-bar.active {
+  border: hidden;
+  transition: 0.2s ease;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+/* CSS FOOTER */
+/*===============================================footer */
+#footer{
+  background-color: #1EAB07;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  height: 400px;
+  font-size: 24px;
+  color: white;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+/*=============================== footer texts */
+.footertexts{
+  line-height: 48px;
+  width: 27%;
+  font-size: 15px;
+}
+/* footer texts headings */
+.footertexts p:first-child{
+  font-size: 15px;
+  margin-bottom: 24px;
+  font-weight: 900;
+}
+/* footer social icons */
+.footertexts>img{
+  width: 172px;
+}
+/* footer buttons */
+#newsletterbutton{
+  position: relative;
+  display: flex;
+  left: -48px;
+  margin-top: 24px;
+}
+/* email button */
+#emailbutton{
+  position: relative;
+  width: 550px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: #1EAB07;
+  left: 48px;
+}
+/* subscribe button */
+#subscribe{
+  position: relative;
+  width: 140px;
+  height: 35px;
+  border-radius: 20px 20px 20px 0px;
+  border: none;
+  background-color: #9C9C9C;
+  color: #1EAB07;
+}
+
+/* CSS PAGE */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section{
+  width: 100%;
+}
+.section .container{
+  width: 80%;
+  display: block;
+  padding: 50px 0px;
+  margin: 0px auto;
+}
+.container .pagetitle{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.container .pagetitle h1{
+  text-transform: uppercase;
+  color: #0c4803;
+  font-size: 38px;
+}
+.container .pagetitle h1::after{
+  height: 5px;
+  width: 100px;
+  content: "";
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  background-color: #c4d156;
+}
+.pagecontent{
+  float: left;
+  width: 55%;
+}
+.image-section{
+  float: right;
+  width: 40%;
+}
+.pagecontent .aboutus h3{
+  color: #a3a3a3;
+  font-size: 17px;
+}
+.pagecontent .aboutus p{
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+ 
+}
+.pagecontent .aboutus .button{
+  margin-top: 55px;
+}
+.pagecontent .aboutus .button a{
+  padding: 8px 25px;
+  background-color: #1eab07;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  border-radius: 40px;
+  color: #fff;
+}
+.pagecontent .aboutus h4{
+  color: rgb(49, 80, 3);
+  font-size: 20px;
+}
+.team-section{
+  width:100%;
+}
+.team-section .container{
+  margin: auto;
+  width: 80%;
+}
+.team-section .container .row{
+  margin: auto;
+  width: 60%;
+}
+.team-section .container .row .title{
+  text-align: center;
+  margin-top: 35px;
+}
+.team-section .container .row .title h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgb(49, 80, 3);
+}
+.team-section .container .row .title p{
+  font-size: 18px;
+  margin: 30px 0px;
+  color: #1eab07;
+}
+.team-section .container .team-card{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.team-section .container .team-card .card{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+  flex-direction: column;
+}
+.team-section .container .team-card .card:hover{
+  background-color: #f3f3f3;
+  transition: 0.3s;
+}
+.team-section .container .team-card .card .image-section img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+.team-section .container .team-card .card .content{
+  width: 100%;
+  text-align: center;
+}
+.team-section .container .team-card .card .content h3{
+  font-size: 27px;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  color: #1eab07;
+}
+.team-section .container .team-card .card .content h4{
+  font-size: 17px;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  color: #1eab07;
+}
+.team-section .container .team-card .card .content p{
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 16px 0px;
+  letter-spacing: 1.5px;
+}
+.who-we-are p{
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+.why-choose-us p, li{
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+.our-partners p{
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1.5px; 
+}
+/* ADD1 */
+/* Style for entire body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+html {
+  font-size: 65%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--clr4);
+}
+/* ADD2 */
