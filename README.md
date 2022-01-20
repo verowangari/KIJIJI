@@ -1,6 +1,6 @@
 # KIJIJI
 #### KIJIJI Real Estate Web Application, 19/01/2022
-#### By Veronica Muriithi, Allan Gikonyo, Michael Osinde, Kelvin Munyao and Zakiya Adam
+#### By Veronica Muriithi, Allan Gikonyo, Michael Osinde, Kelvin Munyao, Zakiya Adam and Aaron Mwarabu
 ## Description
 The following code represents the web application of Kijiji, a Nairobi based real estate company that connect potential real estate buyers with sellers. The web application not only serves as a medium to widen the company's customer base but also allows customers to survey different houses online. 
 
