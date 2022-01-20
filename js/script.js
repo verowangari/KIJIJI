@@ -11,8 +11,21 @@
     //}
 //}
 //showMenu('nav-toggle','nav-menu')
-let menu= document.querySelector(#menu-bars)
+// let menu= document.querySelector(#menu-bars)
 
+$('.submit').click(function () {
+  // var Name = $('#yourname').val();
+  var Email = $('#youremail').val();
+  // var Message = $('#textarea');
+
+  
+  
+  if ( Email == '') {
+      alert('Please make sure you have filled in the email correctly!');
+  } else {
+      alert(' Hi, , Thank you for subscribing to our newsletter.');
+  }
+});
 
   
 
